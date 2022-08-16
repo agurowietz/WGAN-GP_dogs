@@ -1,4 +1,9 @@
 .venv/
-data/tsinghua_dogs
-model/*
-output/*
+data/tsinghua_dogs/low-resolution
+data/chihuahua/jpg
+model/chihuahua_baseline
+model/chihuahua_pretrained
+model/tsinghua_dogs
+output/chihuahua
+output/chihuahua_pretrained
+output/tsinghua_dogs
