@@ -190,7 +190,6 @@ for epoch in range(n_epochs):
             crit_opt.step()
         critic_losses += [mean_iteration_critic_loss]
 
-        # Update generator 
         gen_opt.zero_grad()
         fake_noise_2 = get_noise(cur_batch_size, z_dim, device=device)
         fake_2 = gen(fake_noise_2)
